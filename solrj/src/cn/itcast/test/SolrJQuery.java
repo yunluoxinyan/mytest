@@ -20,6 +20,7 @@ public class SolrJQuery {
 		SolrQuery query = new SolrQuery();
 		
 		//设置查询条件
+		//测试更新
 		query.setQuery("钻石");
 		
 		query.setFilterQueries("product_catalog_name:幽默杂货");
